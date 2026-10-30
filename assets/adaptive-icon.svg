@@ -1,0 +1,18 @@
+<svg width="432" height="432" viewBox="0 0 432 432" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="216" cy="216" r="200" fill="#1B5E20"/>
+  
+  <!-- Inner white circle -->
+  <circle cx="216" cy="216" r="170" fill="#FFFFFF"/>
+  
+  <!-- Brain icon for "Inteligente" -->
+  <text x="216" y="230" font-size="140" text-anchor="middle" dominant-baseline="middle">🧠</text>
+  
+  <!-- Small numbers around -->
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFD700" text-anchor="middle" dominant-baseline="middle" opacity="0.8">
+    <text x="216" y="80">13</text>
+    <text x="216" y="350">17</text>
+    <text x="80" y="216">8</text>
+    <text x="350" y="216">24</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#1B5E20" rx="200"/>
+  
+  <!-- Lotofácil Logo Style -->
+  <g transform="translate(512, 512)">
+    <!-- Outer circle -->
+    <circle r="400" fill="none" stroke="#FFD700" stroke-width="12"/>
+    
+    <!-- Inner circle -->
+    <circle r="340" fill="#FFFFFF"/>
+    
+    <!-- Numbers 1-25 in grid -->
+    <g font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1B5E20" text-anchor="middle" dominant-baseline="middle">
+      <!-- Row 1: 1-5 -->
+      <text x="-200" y="-160">1</text>
+      <text x="-100" y="-160">2</text>
+      <text x="0" y="-160">3</text>
+      <text x="100" y="-160">4</text>
+      <text x="200" y="-160">5</text>
+      <!-- Row 2: 6-10 -->
+      <text x="-200" y="-60">6</text>
+      <text x="-100" y="-60">7</text>
+      <text x="0" y="-60">8</text>
+      <text x="100" y="-60">9</text>
+      <text x="200" y="-60">10</text>
+      <!-- Row 3: 11-15 -->
+      <text x="-200" y="40">11</text>
+      <text x="-100" y="40">12</text>
+      <text x="0" y="40">13</text>
+      <text x="100" y="40">14</text>
+      <text x="200" y="40">15</text>
+      <!-- Row 4: 16-20 -->
+      <text x="-200" y="140">16</text>
+      <text x="-100" y="140">17</text>
+      <text x="0" y="140">18</text>
+      <text x="100" y="140">19</text>
+      <text x="200" y="140">20</text>
+      <!-- Row 5: 21-25 -->
+      <text x="-200" y="240">21</text>
+      <text x="-100" y="240">22</text>
+      <text x="0" y="240">23</text>
+      <text x="100" y="240">24</text>
+      <text x="200" y="240">25</text>
+    </g>
+    
+    <!-- Highlight some numbers (hot numbers) -->
+    <g fill="#FFD700" opacity="0.3">
+      <circle cx="0" cy="-60" r="55"/>   <!-- 8 -->
+      <circle cx="100" cy="40" r="55"/>  <!-- 14 -->
+      <circle cx="-100" cy="140" r="55"/> <!-- 17 -->
+      <circle cx="200" cy="-160" r="55"/> <!-- 5 -->
+    </g>
+    
+    <!-- "I" for Inteligente -->
+    <text x="0" y="360" font-size="120" font-weight="bold" fill="#1B5E20" text-anchor="middle" dominant-baseline="middle">🧠</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="512" y="900" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFD700" text-anchor="middle">INTELIGENTE</text>
+</svg>

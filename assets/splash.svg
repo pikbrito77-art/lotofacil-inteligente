@@ -1,0 +1,55 @@
+<svg width="1284" height="2778" viewBox="0 0 1284 2778" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1284" height="2778" fill="#1B5E20"/>
+  
+  <!-- Decorative pattern - subtle grid -->
+  <g stroke="#2E7D32" stroke-width="1" opacity="0.1">
+    <line x1="0" y1="0" x2="1284" y2="2778"/>
+    <line x1="1284" y1="0" x2="0" y2="2778"/>
+  </g>
+  
+  <!-- Center content -->
+  <g transform="translate(642, 1389)">
+    <!-- Main icon -->
+    <circle r="180" fill="none" stroke="#FFD700" stroke-width="8"/>
+    <circle r="150" fill="#FFFFFF"/>
+    
+    <!-- Brain emoji -->
+    <text x="0" y="10" font-size="160" text-anchor="middle" dominant-baseline="middle">🧠</text>
+    
+    <!-- Hot numbers highlight -->
+    <g fill="#FFD700" opacity="0.2">
+      <circle cx="-60" cy="-60" r="60"/>
+      <circle cx="60" cy="-60" r="60"/>
+      <circle cx="-60" cy="60" r="60"/>
+      <circle cx="60" cy="60" r="60"/>
+    </g>
+    
+    <!-- Numbers 13, 17, 8, 24 -->
+    <g font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1B5E20" text-anchor="middle" dominant-baseline="middle">
+      <text x="-60" y="-60">13</text>
+      <text x="60" y="-60">17</text>
+      <text x="-60" y="60">8</text>
+      <text x="60" y="60">24</text>
+    </g>
+  </g>
+  
+  <!-- App name -->
+  <text x="642" y="1700" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFD700" text-anchor="middle">LOTOFÁCIL</text>
+  <text x="642" y="1780" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle">INTELIGENTE</text>
+  
+  <!-- Subtitle -->
+  <text x="642" y="1860" font-family="Arial, sans-serif" font-size="28" fill="#FFD700" text-anchor="middle" opacity="0.8">Análise Estatística para Apostas Conscientes</text>
+  
+  <!-- Loading indicator -->
+  <g transform="translate(642, 2100)">
+    <circle r="30" fill="none" stroke="#FFD700" stroke-width="4" stroke-dasharray="100" stroke-dashoffset="25">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="24" fill="#FFD700" text-anchor="middle">Carregando...</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="642" y="2650" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" opacity="0.6">Dados oficiais da Caixa Econômica Federal</text>
+  <text x="642" y="2690" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Jogue com responsabilidade • 18+</text>
+</svg>
